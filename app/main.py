@@ -17,7 +17,7 @@ if sys.platform == "win32":
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-app = FastAPI(title="Sulah.pk API", version="1.0.0")
+app = FastAPI(title="Meesaq.pk API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
